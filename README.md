@@ -17,3 +17,4 @@ We can simply add them because the option share the same Time to experation and 
 1. We use the Black-Scholes model, which has known limitations, especially for American-style options.
 2. The tool doesn't account for dividends, which can impact options on dividend-paying stocks.
 3. The tool relies on Yahoo Finance for its real-time data. It can give inaccurate/unreliable prices depending on various factors, such as the availability of certain data.
+4. We use the 10 year rf rate for the calculation. Could be improved by implementing a system that ajust the rf rate based on the time to expiration of the option.
