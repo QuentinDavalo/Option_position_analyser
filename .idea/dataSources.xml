@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="data_feed_20240916_20240916_IEXTP1_DEEP1.0_trade_report.csv.gz" uuid="ce64cb16-c00f-4410-afe9-2d2dfe975503">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$USER_HOME$/Downloads/data_feed_20240916_20240916_IEXTP1_DEEP1.0_trade_report.csv.gz;create=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
