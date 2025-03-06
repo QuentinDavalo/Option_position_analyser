@@ -4,11 +4,11 @@ A Python application to analyze strategies and visualize potential outcomes.
 
 ## What is this?
 
-This tool helps you understand your options positions better. Simply enter the ticker off the stock you want to create a strategy on and let the program guide you.
+This tool helps you understand your options positions better. Simply enter the ticker of the stock you want to create a strategy on and let the program guide you.
 
 ## How does it work?
 
-The application will ask you the different positions you want to take on each of the option tickers, including the direction of the trade and the size of it. You can add multiple trades, and the program will then aggregate them, calculating and plotting the payoff and PnL at expiration based on the datas that you will have entered. It will also calculate the aggregate greeks of the portfolio by using this formula
+The application will ask you the different positions you want to take on each of the option tickers, including the direction of the trade and the size of it. You can add multiple trades, and the program will then aggregate them, calculating and plotting the payoff and PnL based on the datas that you will have entered. It will also calculate the aggregate greeks of the portfolio by using this formula
 Δ_portfolio = Σ(greek × Si × m).
 
 We can simply add them because the option share the same Time to experation and ticker
