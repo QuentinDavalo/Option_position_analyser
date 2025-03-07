@@ -12,7 +12,7 @@ The application will ask you the different positions you want to take on the opt
 
 Greek_portfolio = Σ(greek × Si × m) (greek is remplaced in the code by the delta, gamma, theta, vhega and rho).
 
-We can simply add them because the options share the same time to expiration and ticker.
+We can simply add them because the options share the same time to expiration and ticker (the direction of the trade is, of course, taken into account when calculating the Greeks).
 
 ## DISCLAIMER
 1. We use the Black-Scholes model, which has known limitations, especially for American-style options.
